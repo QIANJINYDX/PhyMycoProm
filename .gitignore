@@ -1,0 +1,24 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Large or generated artifacts
+data/
+work/
+outputs/
+embeddings/
+checkpoints/
+*.npy
+*.npz
+*.pt
+*.pth
+*.safetensors
+
+# Local credentials and environment files
+.env
+.env.*
+*token*
+

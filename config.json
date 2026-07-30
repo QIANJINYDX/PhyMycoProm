@@ -1,0 +1,23 @@
+{
+  "model_name": "PhyMycoProm-TSS",
+  "sequence_length": 300,
+  "tss_index": 249,
+  "embedding_dimension": 1536,
+  "hidden_dimension": 256,
+  "dropout": 0.2,
+  "batch_size": 512,
+  "epochs": 25,
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "minimum_learning_rate_ratio": 0.05,
+  "gradient_clip": 5.0,
+  "threshold": 0.5,
+  "n_splits": 5,
+  "split_seed": 20260720,
+  "training_seeds": [
+    13,
+    42,
+    20260720
+  ]
+}
+
